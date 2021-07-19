@@ -6,4 +6,4 @@ Nota: Ao executar o cotacao.exe é possivel dele ser barrado pelo antivirius, ba
 <br>
 
 **Importante: No diretório Dist é possivel encontrar o arquivo.exe para execusão com duplo clique:**
-[cotacao.exe](https://github.com/maiconwa/CurrencyBRL/blob/main/dist/cotacao.exe)
+[cotacao.exe](https://github.com/maiconwa/CurrencyBRL/tree/main/dist)
