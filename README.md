@@ -3,6 +3,7 @@ The app retrieves information about the exchange rates for the dollar, euro, and
 
 To run the application, you need to install the dependencies listed in the requirements.txt file within a Python virtual environment. Then, you run the cotacao.py script.
 
+Alternatively, you can simply run the cotacao.exe file located in the dist directory.
 <br>
 
 ![alt text](image/image.png)
