@@ -17,6 +17,9 @@ Windows venv activation
 
     # In cmd.exe
     venv\Scripts\activate.bat
+
+<br>
+
     # In PowerShell
     venv\Scripts\Activate.ps1
 
