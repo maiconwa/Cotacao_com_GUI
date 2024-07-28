@@ -1,9 +1,7 @@
-# Aplicativo de cotação 
-Aplicativo busca informações sobre cotação do dolar, euro e bitcoin e exibe em uma interface gráfica.
+# Currency App
+The app retrieves information about the exchange rates for the dollar, euro, and bitcoin, displaying it in a graphical interface.
 
-Para executar a aplicação é necessário instalar as dependencias do arquivo requirements.txt em um ambiente virtual criado pelo interpretador do python e compilar o script cotacao.py ou executar o arquivo cotacao.exe disponivel na pasta dist.
-
-Observação: Ao executar o cotacao.exe é possivel que a execução seja barrada pelo antivirius, pois é um app não assinado. Neste caso basta liberar a exeção de execução.
+To run the application, you need to install the dependencies listed in the requirements.txt file within a Python virtual environment. Then, you run the cotacao.py script.
 
 <br>
 
