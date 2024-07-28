@@ -2,7 +2,7 @@ import requests
 from tkinter import *
 
 
-def pegar_cotacoes():
+def exchange_rates():
     requisicao = requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")
 
     requisicao_dic = requisicao.json()
@@ -12,7 +12,7 @@ def pegar_cotacoes():
     cotacao_btc = requisicao_dic['BTCBRL']['bid']
 
     texto = f'''
-    Dólar: {cotacao_dolar}
+    Dollar: {cotacao_dolar}
     Euro: {cotacao_euro}
     Bitcoin: {cotacao_btc}'''
     
@@ -20,13 +20,13 @@ def pegar_cotacoes():
 
 
 janela = Tk()
-janela.title('Cotação atual das moedas')
+janela.title('Current exchange rates')
 janela.geometry('280x200')
 
-texto_orientacao = Label(janela, text='Clique no botão para ver a cotação das moedas')
+texto_orientacao = Label(janela, text='Click the button to view the exchange rates')
 texto_orientacao.grid(column=0, row=0, padx=10, pady=10)
 
-botao = Button(janela, text='Buscar cotações Dólar/Euro/Bitcoin', command=pegar_cotacoes)
+botao = Button(janela, text='Search Dollar/Euro/Bitcoin', command=exchange_rates)
 botao.grid(column=0, row=1, padx=10, pady=10)
 
 texto_cotacoes = Label(janela, text='')
